@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script class="EXERCICIO 1">
+    
+        //EXERCICIO 1
+        let nota1 = parseFloat(prompt('Digite sua primeira Nota: '))
+        let nota2 = parseFloat(prompt('Digite sua segunda Nota: ')) 
+        let media = (nota1 + nota2) / 2
+        console.log(media)
+
+            if (media >= 6){
+            alert('Voce foi aprovado')
+            } else{
+            alert('voce esta convocado para o exame final')
+        
+            let exame = parseFloat(prompt('Digite sua nota recuperada'))
+            let novaMedia = (media + exame) / 2
+            console.log(novaMedia)
+
+            if (novaMedia >= 6){
+                alert('Voce foi aprovado')
+            } else{
+                alert('Voce reprovou')
+            }
+            }
+    </script>    
+
+</head>
+
+<body>
+
+</body>
+
+</html>
